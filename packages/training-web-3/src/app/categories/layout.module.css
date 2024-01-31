@@ -1,0 +1,5 @@
+.container {
+  flex-grow: 1;
+  padding: 24px;
+  background-color: lightgray;
+}

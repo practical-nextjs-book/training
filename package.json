@@ -1,0 +1,10 @@
+{
+  "name": "training",
+  "private": true,
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

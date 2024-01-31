@@ -1,0 +1,9 @@
+.nav {
+  min-width: 220px;
+  padding: 24px;
+  border-right: 1px solid #000;
+}
+
+.nav [aria-current="page"] {
+  color: orangered;
+}
