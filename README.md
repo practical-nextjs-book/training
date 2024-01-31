@@ -1,4 +1,4 @@
-# Training
+# practical-nextjs-book/training
 
 App Router の概要を理解するための、練習用サンプルコードです。各 package は、書籍構成に応じて段階的に機能強化されています。
 
