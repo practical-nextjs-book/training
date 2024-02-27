@@ -5,14 +5,14 @@ import styles from "./page.module.css";
 
 async function getCategory(categoryName: string) {
   const data: { category: Category } = await fetch(
-    `http://localhost:8080/api/categories/${categoryName}`,
+    `http://localhost:8080/api/categories/${categoryName}`
   ).then((res) => res.json());
   return data.category;
 }
 
 async function getPhotos() {
   const data: { photos: Photo[] } = await fetch(
-    "http://localhost:8080/api/photos",
+    "http://localhost:8080/api/photos"
   ).then((res) => res.json());
   return data.photos;
 }
@@ -23,7 +23,7 @@ type Props = {
 };
 
 export default async function Page({ params, searchParams }: Props) {
-  // 📌: Promise.all を使用した並列データ取得
+  // ★: Promise.all を使用した並列データ取得
   const [category, photos] = await Promise.all([
     getCategory(params.categoryName),
     getPhotos(),

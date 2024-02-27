@@ -1,4 +1,4 @@
-"use client"; // 📌: 不要な "use client"
+"use client"; // ★: 不要な "use client"
 
 import styles from "./style.module.css";
 

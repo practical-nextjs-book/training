@@ -3,7 +3,7 @@ type Props = {
   searchParams: { [key: string]: string | string[] | undefined };
 };
 
-// 📌:props からパスパラメーター、URL 検索パラメーターが参照できる
+// ★:props からパスパラメーター、URL 検索パラメーターが参照できる
 export default function Page({ params, searchParams }: Props) {
   const page = typeof searchParams.page === "string" ? searchParams.page : "1";
   return (

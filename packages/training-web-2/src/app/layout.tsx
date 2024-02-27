@@ -9,7 +9,7 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // 📌:全ての画面に適用される共通レイアウト
+  // ★:全ての画面に適用される共通レイアウト
   return (
     <html lang="ja">
       <body>

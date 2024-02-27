@@ -2,7 +2,7 @@ type Props = {
   params: { photoId: string };
 };
 
-// 📌:props からパスパラメーターが参照できる
+// ★:props からパスパラメーターが参照できる
 export default function Page({ params }: Props) {
   return (
     <div>

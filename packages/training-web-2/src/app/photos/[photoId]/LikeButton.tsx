@@ -1,7 +1,7 @@
-"use client"; // 📌: "use client" ディレクティブを追加する
+"use client"; // ★: "use client" ディレクティブを追加する
 
 export function LikeButton({ photoId }: { photoId: string }) {
-  // 📌: onClick イベントハンドラーを追加したい
+  // ★: onClick イベントハンドラーを追加したい
   return (
     <button
       onClick={() => {

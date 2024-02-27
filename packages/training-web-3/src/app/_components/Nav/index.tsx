@@ -1,4 +1,4 @@
-"use client"; // 📌: "use client" ディレクティブを追加する
+"use client"; // ★: "use client" ディレクティブを追加する
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -9,7 +9,7 @@ function getAriaCurrent(flag: boolean) {
 }
 
 export function Nav() {
-  // 📌: usePathname Hook を使用して、現在のパスを取得したい
+  // ★: usePathname Hook を使用して、現在のパスを取得したい
   const pathName = usePathname();
   return (
     <nav className={styles.nav}>

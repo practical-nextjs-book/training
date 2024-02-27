@@ -6,7 +6,7 @@ export default function Page() {
       <h1>カテゴリー一覧画面</h1>
       <ul>
         <li>
-          {/* 📌:Route の /categories/[categoryName] に遷移する */}
+          {/* ★:Route の /categories/[categoryName] に遷移する */}
           <Link href="/categories/flower">花</Link>
         </li>
         <li>

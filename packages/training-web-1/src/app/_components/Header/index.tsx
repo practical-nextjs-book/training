@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className={styles.header}>
       <p>
-        {/* 📌:SPAナビゲーションを提供する Link コンポーネント */}
+        {/* ★:SPAナビゲーションを提供する Link コンポーネント */}
         <Link href="/">Photo Share</Link>
       </p>
     </header>
